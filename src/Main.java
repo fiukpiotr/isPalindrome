@@ -21,6 +21,7 @@ public class Main {
                 if (currentChar != otherChar) {
                     isPalindrome = false;
                     System.out.println("Przekazane zdanie/wyraz \"" + sentence + "\" nie jest palindronem.");
+                    System.out.println("Spróbój z innym.");
 
                     break;
                 }
@@ -28,6 +29,7 @@ public class Main {
             if (isPalindrome) {
                 System.out.println("Przekazane zdanie/wyraz \"" + sentence + "\" jest palindronem.");
             }
+
 
         }
 
